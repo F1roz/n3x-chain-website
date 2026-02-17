@@ -47,18 +47,13 @@ const Expertise = () => {
 
         <div className="lg:w-1/2 w-full z-20">
           <h3 className="heading2 z-20 pt-[50px]">
-            Our expertise
+            About Us
           </h3>
           <p className="paragraph1 md:mt-[28px] mt-5 mb-3 lg:w-full z-10">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tellus
-            suspendisse mauris nisi sagittis, iaculis velit. Blandit consectetur
-            lacus non metus. Neque sit cras lacinia nunc justo pulvinar fames.
+          N3X Chain combines AI and blockchain expertise to develop cutting-edge solutions across web, mobile, and blockchain applications. Our passionate team is dedicated to providing innovative, scalable, and accessible tools that empower businesses and individuals to thrive in the digital era. From ideation to full deployment, delivering comprehensive solutions that drive innovation and success.
           </p>
           <p className="paragraph1 lg:w-full z-10">
-            Non dictum ut morbi lobortis arcu velit.  Commodo ut risus quam
-            bibendum maecenas augue. Leo, at in aliquam ac sagittis, aliquam.
-            Ultricies tempus, turpis egestas sed tristique amet. Quam arcu eu
-            semper mattis lectus in amet adipiscing egestas
+            
           </p>
         </div>
       </div>
