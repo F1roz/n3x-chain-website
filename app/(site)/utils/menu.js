@@ -18,7 +18,7 @@ export const menus = [
             { link: '/services/application', title: 'Application Development' },
             { link: '/services/business', title: 'Business Analysis' },
             { link: '/services/designservice', title: 'Design Service' },
-            { link: '/services/digitaltrns', title: 'Digital Transformation' },
+            { link: '/services/digitaltrns', title: 'Digital Marketing' },
             { link: '/services/aiml', title: 'AI/ML' },
             { link: '/services/devops', title: 'DevOps Services' },
             { link: '/services/cloud', title: 'Cloud Services' },
