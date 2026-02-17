@@ -1,0 +1,153 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.containers {
+  @apply 2xl:px-[246px] lg:px-10 md:px-5 px-3;
+}
+.ant-drawer-header {
+  @apply !hidden;
+}
+
+.jost_header{
+  @apply xl:text-[150px] z-20  lg:text-[130px] sm:text-[100px] font-medium text-transparent bg-clip-text absolute 2xl:left-[150px] md:leading-[120px] leading-[90px] text-[60px]
+}
+.long_header{
+  @apply xl:text-[65px] lg:text-[50px] md:text-[40px] text-[30px] font-medium font-poppins z-10
+}
+.long_header_company{
+  @apply lg:text-[60px] md:text-[40px] text-[30px] font-medium font-poppins z-10
+}
+.sub_header_company{
+  @apply lg:text-[56px] md:text-[40px] text-[30px] font-medium font-poppins z-10
+}
+
+.company_subtitle{
+  line-height: normal;
+  background: linear-gradient(119deg, #1FEBB0 13.55%, #30D3CE 58.99%, #069CFD 94.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  @apply xl:text-[40px] text-[28px] md:text-[35px]
+}
+.heading2{
+  @apply xl:text-[50px]  lg:text-[40px] sm:text-[30px] text-2xl font-medium font-jost text-white
+}
+
+.paragraph1{
+  @apply lg:text-[16px] md:text-sm text-xs lg:leading-[30px] md:leading-[25px] leading-[20px]
+}
+
+.piramid_text{
+  @apply absolute top-0 left-12 z-20 font-poppins font-medium
+}
+.piramid_text_top{
+  @apply w-[23px] h-[23px] rounded-full z-10 relative
+}
+.piramid_long{
+  @apply h-36 w-0.5 border-l-[3px] border-dashed z-20
+}
+
+
+.Calendar__day.-selectedBetween {
+  @apply !bg-[#1FEBB0] !text-white;
+}
+.Calendar__day.-ltr.-selectedStart {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+}
+.Calendar__day.-ltr.-selectedEnd {
+  border-top-left-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-right-radius: 0 !important;
+  border-bottom-right-radius: 0 !important;
+}
+.Calendar__day.-selected,
+.Calendar__day.-selectedStart,
+.Calendar__day.-selectedEnd {
+  @apply !bg-[#069CFD];
+}
+
+.ant-popover .ant-popover-inner {
+  background-color: transparent !important;
+}
+
+.ant-collapse-header-text{
+  color: white;
+}
+.ant-collapse-expand-icon{
+  display: none !important;
+}
+
+
+@layer components {
+  .hexagon {
+    clip-path: polygon(50% 0%, 93% 25%, 93% 75%, 50% 100%, 7% 75%, 7% 25%);
+  }
+}
+
+
+.element {
+  will-change: transform;
+  transition: 400ms cubic-bezier(0.03, 0.98, 0.52, 0.99);
+  transform: perspective(800px) rotateX(0deg) rotateY(0deg) scale3d(1, 1, 1);
+}
+
+.arrow {
+  content: '';
+  border: solid #1FEBB0;
+  border-width: 2px 2px 0 0;
+  display: inline-block;
+  transform: rotate(45deg);
+}
+
+.company_process_card_title{
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 125% */
+  background: linear-gradient(119deg, #1FEBB0 13.55%, #30D3CE 58.99%, #069CFD 94.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.missionContentCount{
+  text-align: center;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 125% */
+  background: linear-gradient(119deg, #1FEBB0 13.55%, #30D3CE 58.99%, #069CFD 94.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.text-gradient {
+  background: linear-gradient(119deg, #1FEBB0 13.55%, #30D3CE 58.99%, #069CFD 94.97%);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.gradient-border {
+  border: 10px solid transparent;
+  border-image: linear-gradient(119deg, #1FEBB0 30.55%, #30D3CE 58.99%, #069CFD 94.97%) 1;
+}
+
+.companyMissionTitle {
+  @apply text-white text-center text-xl font-normal leading-tight lg:text-2xl sm:leading-snug md:text-xl md:leading-7 lg:leading-10;
+}
+
+.companyParagraph{
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.hide-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
